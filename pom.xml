@@ -18,7 +18,7 @@
 
 		<!-- Specify AppEngine version for your project. It should match SDK version 
 			pointed to by ${gae.home} property -->
-		<gae.version>1.4.2</gae.version>
+		<gae.version>1.4.3</gae.version>
 
 		<!-- Specify source encoding -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
