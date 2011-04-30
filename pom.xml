@@ -9,7 +9,7 @@
 
 	<name>AppEngine_Common</name>
 	<url>http://maven.apache.org</url>
-	
+
 	<properties>
 
 		<!-- This is just for "eclipse:eclipse" goal to always attempt downloading 
@@ -93,6 +93,20 @@
 			<artifactId>jersey-server</artifactId>
 			<version>1.5</version>
 			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.geronimo.specs</groupId>
+			<artifactId>geronimo-servlet_2.5_spec</artifactId>
+			<version>1.2</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.sun.jersey.contribs</groupId>
+			<artifactId>jersey-spring</artifactId>
+			<version>1.5</version>
+			<type>jar</type>
 		</dependency>
 
 		<dependency>
